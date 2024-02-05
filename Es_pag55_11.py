@@ -10,7 +10,7 @@ def main():
     x1 = x[:len(x) // 2] 
     x2 = x[len(x) // 2:]  
 
-    x1.append(5)
+    x1.append(x2[0])
 
     print_list(x)
     print_list(x1)

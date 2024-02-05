@@ -1,9 +1,7 @@
 def main():
     stringa = "ciao"
 
-    for cont in stringa:
-        if (stringa.index(cont) % 2 != 0):
-            print(cont)
+    print(stringa[1::2]) #per stampare caratteri solo dispari
 
 if __name__ == "__main__":
     main() 
